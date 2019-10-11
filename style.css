@@ -1,25 +1,25 @@
 @keyframes spin {
-    0% {background: url("/heads.png")}
+    0% {background: url("./heads.png")}
     
-    25% {background: url("/tails.png")}
+    25% {background: url("./tails.png")}
     
-    50% {background: url("/heads.png")}
+    50% {background: url("./heads.png")}
     
-    75% {background: url("/tails.png")}
+    75% {background: url("./tails.png")}
     
-    100% {background: url("/heads.png")}
+    100% {background: url("./heads.png")}
 }
 
 
 #image{
-    background: url("/heads.png");
+    background: url("./heads.png");
     width: 227px;
     height: 337px;
     
 }
 
 .animate{
-    background: url("/heads.png");
+    background: url("./heads.png");
     width: 227px;
     height: 337px;
     animation-name: spin;
